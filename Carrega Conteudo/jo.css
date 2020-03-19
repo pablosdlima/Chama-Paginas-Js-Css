@@ -1,0 +1,56 @@
+/*IDS SÓ PODEM REPRESENTAR UMA TAG OU OBJ / UTILIZADAS NORMALMENTE EM FUNCTION JS*/
+/*CLASSES SÃO BLOCO DE CODIGOS QUE PODEM SER USADO EM 1 OU + BLOCOS*/
+
+*{
+	padding:0%;
+	margin:0%;
+}/*formatação da page web*/
+.menuFixo{
+	width:20%;
+	height:100vh;
+	background:#d26666;
+	float:left;
+}/*MENU LATERAL FIXO*/
+.menuFixo ul li{
+	list-style:none;
+	text-align:center;
+	font-size:1.30em;
+	font-family:arial;
+	line-height:50px;
+	border-bottom:2px solid snow;
+	color:snow;
+	cursor:pointer;
+}/*MENU LATERAL FIXO (OPÇÕES LISTA.)*/
+.menuFixo ul li:hover{
+	background:#FF315D;
+}
+
+.cxExiba{
+	width:80%;
+	height:100vh;
+	background:#e0d0d0;
+	float:left;
+}/*Caixa que contem as demais páginas*/
+.page{
+	width:99%;
+	height:99%;
+	margin:0% auto;
+}/*formato de pagina padrão para todas as SubPaginas*/
+
+.page h1{
+	padding-top:20%;
+	color:snow;
+	font-family:arial;
+}
+#page1{
+	background:#c77180;
+	display:none;
+}/*SubPagina Opção de menu 1*/
+#page2 {
+	background:#e04b75;
+	display:none;
+}/*SubPagina Opção de menu 2*/
+#page3{
+	background:#882a73;
+	display:none;
+}/*SubPagina Opção de menu 3*/
